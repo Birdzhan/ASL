@@ -1,0 +1,91 @@
+body {
+    background: gainsboro;
+    margin: 0;
+    padding: 0;
+    font-family: Monaco, Verdana, Sans-serif;
+}
+#login_form {
+    width: 330px;
+    background: lightsteelblue;
+    border: px solid darkslateblue;
+    margin: 270px auto 0;
+    padding: 1em;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+h1,h2,h3,h4,h5 {
+    margin-top: 0;
+    font-family: Monaco, Verdana, Sans-serif;
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 300px;
+    border: 8px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 20px;
+    padding: .8em;
+}
+input[type=submit], form a{
+    border: none;
+    margin-right: 3em;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 8px;
+    background: #236790;
+    color: cornsilk;
+}
+input[type=submit]:hover, form a:hover {
+    background: #2cc36b;
+}
+fieldset {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+    display: block;
+}
+#addemp {
+    margin: auto;
+    display: block;
+}
+#addemp a {
+    text-decoration: none;
+    color: #333;
+}
+.results {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+}
+.results th {
+    background-color: #666 !important;
+}
+.results tr:last-child {
+    width: 200px !important;
+}
+.results tr {
+    text-align: center;
+
+}
+.results td {
+    background-color: #fff;
+}
+.add {
+    background-color: darkgrey;
+    padding: .5em;
+    font-size: 18px;
+}
+.addbtn {
+    background-color: gainsboro;
+    margin: auto;
+    display: block;
+    padding: 0px;
+    width: 54px;
+    border-radius: 100px;
+
+}
+.add tr {}
