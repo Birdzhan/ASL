@@ -1,0 +1,268 @@
+body {
+    /*background: gainsboro !important;*/
+    background-image: url("../images/bg.gif");
+    background-attachment: fixed;
+    margin: 0 0 100px 0 !important;
+    padding: 0;
+    font-family: Monaco, Verdana, Sans-serif;
+    height: 100%;
+}
+.calendar {
+   font-family: Monaco, Verdana, Sans-serif;
+    font-size: 12px;
+}
+.container {
+    height:100%;
+    width: 100%;
+}
+table.calendar {
+    margin: auto;
+    border-collapse: collapse;
+}
+.calendar .days td {
+    width: 80px;
+    height: 80px;
+    padding: 4px;
+    border: 1px solid #999;
+    vertical-align: top;
+    background-color: lightsteelblue;
+}
+.calendar .days td:hover {
+    background-color: #2cc36b ;
+}
+#login_form {
+    width: 330px;
+    background: lightsteelblue;
+    border: 1px solid darkslateblue;
+    margin: 140px auto 0;
+    padding: 1em;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-family: Monaco, Verdana, Sans-serif;
+}
+.calendar .highlight {
+    font-weight: bold;
+    color: darkmagenta;
+}
+h1,h2,h3,h4,h5 {
+    margin-top: 0;
+    font-family: Monaco, Verdana, Sans-serif;
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    /*display: block;*/
+    margin: 0 0 1em 0;
+    width: 300px;
+    border: 8px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 20px;
+    padding: .6em;
+    display: inline !important;
+}
+input[type=submit], form a{
+    border: none;
+    margin-right: 3em;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 8px;
+    background: #236790;
+    color: cornsilk;
+    display: inline !important;
+}
+input[type=submit]:hover, form a:hover {
+    background: #2cc36b;
+    text-decoration: none;
+}
+fieldset {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+    display: block;
+}
+#addemp {
+    margin: auto;
+    display: block;
+}
+#addemp a {
+    text-decoration: none;
+    color: #333;
+
+}
+.results {
+    text-align: left;
+    width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+    /*border: 1px solid darkslateblue;*/
+    font-family: Monaco, Verdana, Sans-serif;
+    font-size: 16px;
+
+}
+.results th {
+    background-color: darkgray !important;
+    text-align: center;
+}
+.results tr:last-child {
+    width: 200px !important;
+}
+.results tr {
+    text-align: left;
+
+}
+/*.results td {*/
+    /*background-color: gainsboro;*/
+
+/*}*/
+#addnew {
+    margin-top: 60px;
+}
+#add {
+    width: 420px;
+    margin: 120px auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-family: Monaco, Verdana, Sans-serif;
+    height: 210px;
+
+}
+.input {
+    margin-top: 170px;
+    position: fixed;
+}
+#addemp {
+    background-color: #63B3E2;
+    ont-size: 1.2em !important;
+    margin: auto;
+    display: block;
+    padding: 0px;
+    width: 150px;
+    border-radius: 2px;
+    text-align: center;
+}
+#addemp:hover {
+    background: #2cc36b;
+}
+.addbtn {
+    background-color: gainsboro;
+    margin: auto;
+    display: block;
+    padding: 0px;
+    width: 54px;
+    border-radius: 100px;
+
+}
+#addbtn:hover {
+    background: #2cc36b;
+}
+#createacc {
+    text-align: center;
+    background-color: gainsboro;
+}
+#field1,#field2 {
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Monaco, Verdana, Sans-serif;
+
+}
+#list {
+    padding-top: 3em;
+    font-family: Monaco, Verdana, Sans-serif;
+
+}
+label {
+    display: block;
+}
+.error {
+    color: #373737;
+    font-style: italic;
+}
+#attached_email {
+    background: lightsteelblue;
+    width: 330px;
+    margin: 5em auto 0;
+    padding: 32px;
+    border: 1px solid darkslateblue;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-family: Monaco, Verdana, Sans-serif;
+    margin: 140px auto 0;
+
+}
+#attached_email form input[type=text] {
+    width: 100%;
+}
+h2 {
+    margin-top: -54px;
+    color: #aa2828;
+    font-family: Arial;
+}
+input[type=submit] {
+    padding: .5em;
+    cursor: pointer;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: calc(100vh-60px);
+    height: 60px;
+    width: 100%;
+    background-color: #666;
+    clear: both;
+}
+#gallery, #upload {
+    border: 3px solid grey;
+    margin: 10px auto;
+    width: 570px;
+    padding: 10px;
+}
+#blank_gallery {
+    font-family: Monaco, Verdana, Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.thumb {
+    float: left;
+    width: 150px;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+#gallery:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+#welcome {
+    /*height: 400px;*/
+    /*width: 1000px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+.jumbotron{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(orange, gray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(orange, gray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(orange, gray); /* Standard syntax (must be last) */
+    font-family: Monaco, Verdana, Sans-serif;
+}
+.col-sm-4,.col-sm-3  {
+
+    font-family: Monaco, Verdana, Sans-serif;
+}
+tr:nth-child(2n+1){ background: ghostwhite;
+}
+tr:nth-child(2n){ background: gainsboro;
+}
+
+

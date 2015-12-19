@@ -1,0 +1,8 @@
+#Deny from all
+RewriteEngine on
+RewriteBase http://localhost:8889/CodeIgniter
+RewriteCond $1 !^(index\.php|css|images|fonts|js|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
+#
